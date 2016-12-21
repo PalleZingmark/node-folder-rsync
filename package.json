@@ -23,5 +23,12 @@
     "dotenv": "^2.0.0",
     "eslint": "^3.8.1",
     "rsyncwrapper": "^2.0.1"
-  }
+  },
+  "keywords": [
+    "folder",
+    "node",
+    "rsync",
+    "ssh",
+    "sync"
+  ]
 }
