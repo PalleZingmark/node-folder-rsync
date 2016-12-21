@@ -1,0 +1,27 @@
+{
+  "name": "node-folder-rsync",
+  "version": "0.0.2",
+  "description": "Simple sync of local and remote folders using rsync",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "author": {
+    "name": "Palle Zingmark",
+    "email": "palle@palleman.nu",
+    "url": "http://palleman.nu"
+  },
+  "license": "MIT",
+  "main": "sync.js",
+  "scripts": {
+    "lint": "eslint 'sync.js'; exit 0",
+    "sync": "node sync.js",
+    "watch": "chokidar './src/*' -c 'node sync.js'"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "dotenv": "^2.0.0",
+    "eslint": "^3.8.1",
+    "rsyncwrapper": "^2.0.1"
+  }
+}
