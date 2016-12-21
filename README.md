@@ -16,6 +16,10 @@ SSH_USER=<ssh username>
 SSH_HOST=<ssh host>
 ```
 
+## Prerequisites
+
+To have a smooth passwordless flow, you need to have your SSH credentials already setup and ready on both your local and remote, how to do that is not covered in this repo but [here is a pretty nice article](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys) that might help you.
+
 ## License
 
 MIT
